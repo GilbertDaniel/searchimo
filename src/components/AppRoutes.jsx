@@ -8,9 +8,9 @@ export const AppRoutes = () => {
     <Routes>
       <Route exact path="/" element={<Navigate to="/search"/>}></Route>
       <Route exact path="/search" element={<Results/>}></Route>
-      <Route exact path="/images" element={<Results/>}></Route>
+      <Route exact path="/image" element={<Results/>}></Route>
       <Route exact path="/news" element={<Results/>}></Route>
-      <Route exact path="/videos" element={<Results/>}></Route>
+      <Route exact path="/video" element={<Results/>}></Route>
     </Routes>
   </div>
   )
